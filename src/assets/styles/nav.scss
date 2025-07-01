@@ -1,0 +1,66 @@
+.nav{
+    transition: all .3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &_filler{
+        opacity: 0;
+        margin: 0;
+    }
+    &_title{
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 127%;
+        text-align: center;
+        color: #1c1b1f;
+        margin: 0;
+    }
+    &_search{
+        background: none;
+        border: none;
+        margin: 0;
+    }
+    &_field{
+        transition: all .3s ease;
+        width: 97.5%;
+        display: flex;
+        gap: 104px;
+        justify-content: space-between;
+        align-items: center;
+        &_back{
+            background: none;
+            border: none;
+            margin: 0 -20px;
+        }
+        &_cross{
+            background: none;
+            border: none;
+            margin:  -20px;
+
+        }
+        &_input{
+
+            width: 100%;
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            font-weight: 400;
+            &::placeholder{
+                font-size: 16px;
+                font-weight: 400;
+                color: #9D9D9D;
+                top: 0;
+            }
+        }
+    }
+    &_outer{
+        padding: 18px 21px;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        background: #f3edf7;
+        // position: relative;
+        overflow: hidden;
+        height: 64px;
+    }
+}
